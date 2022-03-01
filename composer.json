@@ -9,7 +9,7 @@
             "type":"composer",
             "url" : "https://packagist.org"
         },
-        { "packages":false }
+        { "packagist":false }
     ],
     "require": {
         "php": "^8.0.2",
