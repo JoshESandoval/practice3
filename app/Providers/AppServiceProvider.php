@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-echo('updated1');
+//echo('updated1');
 
 use Illuminate\Routing\UrlGenerator;
 use Illuminate\Support\ServiceProvider;
@@ -26,6 +26,7 @@ class AppServiceProvider extends ServiceProvider
     {
         if(env('REDIRECT_HTTPS')){
             $this->app['request']->server->set('HTTPS', true);
+        }
     }
 
     /**
