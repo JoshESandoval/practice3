@@ -1,5 +1,7 @@
 #htaccess
 
 RewriteEngine On
-RewriteCond %{HTTPS} off
+
+RewriteCond %{HTTPS} != on
+
 RewriteRule (.*) https://%{HTTP_HOST}%REQUEST_URI} 
