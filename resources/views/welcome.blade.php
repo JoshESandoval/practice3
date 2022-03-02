@@ -16,6 +16,6 @@
 @stop
 
 @section('js')
-	<script> console.log('hi!'); </script>
+	<script> console.log('hi! am i new'); </script>
 @stop
 
