@@ -18,15 +18,15 @@
       <tbody>
         <tr>
           <td>1.</td>
-          <td>Update software</td>
-          <td><div class="progress progress-xs"><div class="progress-bar progress-bar-danger" style="width: 55%"></div></div></td>
-          <td><span class="badge bg-danger">55%</span></td>
+          <td>Learn postgres</td>
+          <td><div class="progress progress-xs"><div class="progress-bar progress-bar-danger" style="width: 5%"></div></div></td>
+          <td><span class="badge bg-danger">5%</span></td>
         </tr>
         <tr>
           <td>2.</td>
-          <td>Clean database</td>
-          <td><div class="progress progress-xs"><div class="progress-bar bg-warning" style="width: 70%"></div></div></td>
-          <td><span class="badge bg-warning">70%</span></td>
+          <td>Clean room</td>
+          <td><div class="progress progress-xs"><div class="progress-bar bg-warning" style="width: 90%"></div></div></td>
+          <td><span class="badge bg-warning">90%</span></td>
         </tr>
       </tbody>
     </table>
