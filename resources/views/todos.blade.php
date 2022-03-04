@@ -32,7 +32,7 @@
           <td>3.</td>
           <td>Finish Homework</td>
           <td><div class="progress progress-xs"><div class="progress-bar bg-normal" style="width: 70%"></div></div></td>
-          <td><span class="badge bg-normal">70%</span></td>
+          <td><span class="badge bg-good">70%</span></td>
         </tr>
       </tbody>
     </table>
