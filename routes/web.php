@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::middleware(['cors'])->group(function () {
-    Route::post('/heroku', 'Controller@heroku');
+    Route::post('/herokuapp', 'Controller@herokuapp');
 });
 
 Route::get('/', function () {
