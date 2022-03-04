@@ -229,7 +229,7 @@ return [
         /*[
             'type' => 'sidebar-menu-search',
             'text'. => 'search',
-        ],*/
+        ],
         [
             'text' => 'To Do\'s',
             'url ' => 'todos',
@@ -239,7 +239,7 @@ return [
             'text' => 'Calendar',
             'url'  => 'calendar',
             'icon' => 'fas fa-fw fa-calender-alt',
-         ],   
+         ],   */
     ],
 
     /*
