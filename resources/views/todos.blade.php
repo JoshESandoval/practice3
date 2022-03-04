@@ -20,4 +20,5 @@
 @stop
 
 @section('js')
-    console.log('sup');
+    <script>console.log('sup');</script>
+@stop
