@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@sectin('title, 'Board')
+@section('title, 'Board')
 
 @section('content_header')
   <h1>Main Board</h1>
