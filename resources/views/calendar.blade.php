@@ -6,10 +6,6 @@
   <h1>Calendar</h1>
 @stop
 
-@section('Fullcalendar', true)
-
-
-@stop
 
 @section('css')
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.min.css">
