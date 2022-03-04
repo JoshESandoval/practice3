@@ -244,7 +244,7 @@ return [
          [
             'text' => 'Board',
             'url'  => 'board',
-            'icon' => 'fas fa-fw fa-board-alt',
+            'icon' => 'fas fa-fw fa-board',
          ],  
     ],
 
