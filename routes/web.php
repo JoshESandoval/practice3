@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::middleware(['cors'])->group(function () {
+    Route::post('/hogehoge', 'Controller@hogehoge');
+});
 
 Route::get('/', function () {
     return view('welcome');
@@ -32,3 +35,5 @@ Route::get('/board', function () {
 Route::fallback( function () {
     return view('errorPage');   
 });
+
+
