@@ -226,9 +226,9 @@ return [
 
     'menu' => [
         // Navbar items:
-        /*[
+        [
             'type' => 'sidebar-menu-search',
-            'text'. => 'search',
+            'text' => 'search',
         ],
         [
             'text' => 'To Do\'s',
@@ -239,7 +239,7 @@ return [
             'text' => 'Calendar',
             'url'  => 'calendar',
             'icon' => 'fas fa-fw fa-calender-alt',
-         ],   */
+         ],  
     ],
 
     /*
