@@ -227,11 +227,6 @@ return [
     'menu' => [
         // Navbar items:
         [
-            'type'         => 'navbar-search',
-            'text'         => 'search',
-            'topnav_right' => true,
-        ],
-        [
             'type' => 'sidebar-menu-search',
             'text'. => 'search',
         ],
@@ -245,7 +240,6 @@ return [
             'url'  => 'calendar',
             'icon' => 'fas fa-fw fa-calender-alt',
          ],   
-     
     ],
 
     /*
