@@ -17,7 +17,7 @@
         <div class="card-body">
           <div class="card card-info card-outline">
             <div class="card-header">
-              <h5 class="card-title">Create Labels</h5>
+              <h5 class="card-title">Make Music</h5>
               <div class="card-tools">
                 <a href="#" class="btn btn-tool btn-link">#3</a>
                 <a href="#" class="btn btn-tool">
@@ -28,29 +28,25 @@
               <div class="card-body">
                 <div class="custom-control custom-checkbox">
                   <input class="custom-control-input" type="checkbox" id="customCheckbox1" disabled="">
-                  <label for="customCheckbox1" class="custom-control-label">Bug</label>
+                  <label for="customCheckbox1" class="custom-control-label">Battle</label>
                 </div>
               <div class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="customCheckbox2" disabled="">
-                <label for="customCheckbox2" class="custom-control-label">Feature</label>
+                <label for="customCheckbox2" class="custom-control-label">Main-menu</label>
               </div>
               <div class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="customCheckbox3" disabled="">
-                <label for="customCheckbox3" class="custom-control-label">Enhancement</label>
+                <label for="customCheckbox3" class="custom-control-label">City</label>
               </div>
               <div class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="customCheckbox4" disabled="">
-                <label for="customCheckbox4" class="custom-control-label">Documentation</label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="customCheckbox5" disabled="">
-                <label for="customCheckbox5" class="custom-control-label">Examples</label>
+                <label for="customCheckbox4" class="custom-control-label">Gameover Screen</label>
               </div>
             </div>
           </div>
           <div class="card card-primary card-outline">
             <div class="card-header">
-              <h5 class="card-title">Create Issue template</h5>
+              <h5 class="card-title">Create Enemys</h5>
               <div class="card-tools">
                 <a href="#" class="btn btn-tool btn-link">#4</a>
                 <a href="#" class="btn btn-tool">
@@ -61,11 +57,15 @@
             <div class="card-body">
               <div class="custom-control custom-checkbox">
                 <input class="custom-control-input" type="checkbox" id="customCheckbox1_1" disabled="">
-                <label for="customCheckbox1_1" class="custom-control-label">Bug Report</label>
+                <label for="customCheckbox1_1" class="custom-control-label">Zombie</label>
               </div>
               <div class="custom-control custom-checkbox">
-              <input class="custom-control-input" type="checkbox" id="customCheckbox1_2" disabled="">
-              <label for="customCheckbox1_2" class="custom-control-label">Feature Request</label>
+                <input class="custom-control-input" type="checkbox" id="customCheckbox1_2" disabled="">
+                <label for="customCheckbox1_2" class="custom-control-label">Dire Wolf</label>
+              </div>
+              <div class="custom-control custom-checkbox">
+                <input class="custom-control-input" type="checkbox" id="customCheckbox1_2" disabled="">
+                <label for="customCheckbox1_2" class="custom-control-label">Vampire</label>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@
       <div class="card-body">
       <div class="card card-primary card-outline">
       <div class="card-header">
-      <h5 class="card-title">Create first milestone</h5>
+      <h5 class="card-title">Create Game Objects</h5>
       <div class="card-tools">
       <a href="#" class="btn btn-tool btn-link">#5</a>
       <a href="#" class="btn btn-tool">
@@ -106,7 +106,7 @@
       <div class="card-body">
       <div class="card card-light card-outline">
       <div class="card-header">
-      <h5 class="card-title">Update Readme</h5>
+      <h5 class="card-title">Research Bugs</h5>
       <div class="card-tools">
       <a href="#" class="btn btn-tool btn-link">#2</a>
       <a href="#" class="btn btn-tool">
@@ -116,7 +116,7 @@
       </div>
       <div class="card-body">
       <p>
-      Post application address in the Readme.
+      Access-Controll-Allow-Origin
       </p>
       </div>
       </div>
@@ -134,7 +134,7 @@
       <div class="card-body">
       <div class="card card-primary card-outline">
       <div class="card-header">
-      <h5 class="card-title">Create repo</h5>
+      <h5 class="card-title">Funny Music</h5>
       <div class="card-tools">
       <a href="#" class="btn btn-tool btn-link">#1</a>
       <a href="#" class="btn btn-tool">
