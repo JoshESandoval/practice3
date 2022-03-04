@@ -3,11 +3,10 @@
 @section('title', 'oh no, our table')
 
 @section('content_header')
-  <h1>Something Went wrong</h1>
+  <h1 style="color:yellow">Something Went wrong Error 404</h1>
 @stop
 
 @section('content')
-  <h2 style= "color:blue">404 Error :(<
   <div>Have you tried turning it on and off?...</div>
 @stop
 
