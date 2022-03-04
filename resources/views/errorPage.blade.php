@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-  <div>Please watch my apology video at ... </div>
+  <h2 style= "color:blue">404 Error :(<
   <div>Like, subscribe, I'm sorry, and don't forget to like</div>
 @stop
 
