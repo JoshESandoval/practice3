@@ -2,10 +2,10 @@
 
 @extends('adminlte::page')
 
-@section('title' , 'To-Do Page')
+@section('title' , 'RPGTo-Do')
 
 @section('content_header')
-  <h1>To-Do List</h1>
+  <h1>Game To-Do List</h1>
 @stop
 
 @section('content')

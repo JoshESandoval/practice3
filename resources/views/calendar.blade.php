@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title' , 'Calendar')
+@section('title' , 'Work Cal')
 
 @section('content_header')
-  <h1>Calendar</h1>
+  <h1>Work Calendar</h1>
 @stop
 
 @section('content')
