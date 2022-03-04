@@ -6,7 +6,7 @@
   <h1>Calendar</h1>
 @stop
 
-@section('FullCalendar', true)
+@section('Fullcalendar', true)
 
 
 @stop
