@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-  <p>I could make a joke but you already know where it goes</>
+  <p>I could make a joke but you already know where it goes</p>
 @stop
 
 @section('css')
