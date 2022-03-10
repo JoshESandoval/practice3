@@ -19,6 +19,14 @@ Route::middleware(['cors'])->group(function () {
     Route::post('/herokuapp', 'Controller@herokuapp');
 });
 
+Route::get('/bd-test', function () {
+    try{
+        echo \BD::connection()->getDatabaseName();
+    }catch (\Exception $e) {
+        echo 'None';
+    }
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -35,13 +43,7 @@ Route::get('/board', function () {
     return view('board');
 });
 
-Route::get('/bd-test', function () {
-    try{
-        echo \BD::connection()->getDatabaseName();
-    }catch (\Exception $e) {
-        echo 'None';
-    }
-});
+
 
 
 Route::fallback( function () {
