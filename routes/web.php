@@ -21,7 +21,7 @@ Route::middleware(['cors'])->group(function () {
 
 Route::get('/bd-test', function () {
     try{
-        echo \BD::connection()->getDatabaseName();
+        echo \DB::connection()->getDatabaseName();
     }catch (\Exception $e) {
         echo 'None';
     }
