@@ -2,7 +2,7 @@
 
 @section('title', 'To do List')
 
-@section)'content_header')
+@section('content_header')
 	<h1>To Do's </h1>
 @stop
 
