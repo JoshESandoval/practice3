@@ -37,7 +37,7 @@ Route::get('/board', function () {
 
 Route::get('/bd-test',function(){
     try{
-        echo \BD:connection()->getDatabaseName();
+        echo \BD::connection()->getDatabaseName();
     }catch(\Exception $e) {
         echo 'None';
     }
