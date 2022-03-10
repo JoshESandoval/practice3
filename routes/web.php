@@ -35,6 +35,15 @@ Route::get('/board', function () {
     return view('board');
 });
 
+Route::get('/bd-test',function(){
+    try{
+        echo \BD:connection()->getDatabaseName();
+    }catch(\Exception $e) {
+        echo 'None';
+    }
+});
+
+
 Route::fallback( function () {
     return view('errorPage');   
 });
