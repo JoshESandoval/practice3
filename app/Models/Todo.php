@@ -8,4 +8,6 @@ use Illuminate\Eloquent\Model;
 class Todo extends Model
 {
 	use HasFactory;
+    
+    protected $fillable = ['title', 'progress'];
 }
