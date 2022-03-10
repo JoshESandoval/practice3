@@ -2,6 +2,7 @@
 
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TodoController;
 
 header("Access-Control-Allow-Origin: *");
 
@@ -48,7 +49,7 @@ Route::get('/board', function () {
     return view('board');
 });
 
-
+Route::resource('/todos', TodoController::class);
 
 
 Route::fallback( function () {
