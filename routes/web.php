@@ -35,10 +35,10 @@ Route::get('/board', function () {
     return view('board');
 });
 
-Route::get('/bd-test',function(){
+Route::get('/bd-test', function () {
     try{
         echo \BD::connection()->getDatabaseName();
-    }catch(\Exception $e) {
+    }catch (\Exception $e) {
         echo 'None';
     }
 });
