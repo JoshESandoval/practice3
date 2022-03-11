@@ -11,7 +11,7 @@
    @csrf
    @method('PUT')
   <x-adminlte-input name="title" label="Title" value="{{$todo->title}}"/>
-  <x-adminlte-input name='progress' label='progress' type='number' min=0 max=100 placeholder={{$todo->progress}} />
+  <x-adminlte-input name='progress' label='progress' type='number' min=0 max=100 value="{{$todo->progress}}" />
   <x-adminlte-button type="Submit" label="Submit" />
   </form>
 @stop
