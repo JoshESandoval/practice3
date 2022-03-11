@@ -91,7 +91,7 @@ class TodoController extends Controller
         $todo->title = $request->title;
         $todo->progress = $request->progress;
         $todo->update();
-         return view('todos.show', 200);
+         return view('todos.show', compact('todo'));
     }
 
     /**
