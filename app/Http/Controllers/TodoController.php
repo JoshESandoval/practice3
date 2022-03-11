@@ -86,7 +86,7 @@ class TodoController extends Controller
             'title' => 'required',
             'progress' => 'required',
         ]);
-        $todo = Todo::find($id)
+        $todo = Todo::find($id);
         
         $todo->update([
             'title'->$request->title,
