@@ -9,5 +9,5 @@
 @section('content')
 	<h2>{{ $todo->title;}}</h2>
 	<div><p>{{$todo->progress;}}% finished</p></div>
-    <a href="{{ route('todos.edit' }}"  class = "btn btn-primary">Edit</a>
+    <a href="{{ route('todos.edit') }}"  class = "btn btn-primary">Edit</a>
 @stop
