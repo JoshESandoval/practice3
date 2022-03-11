@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-<form method="post" action={{route('todos.update')}}>
+<form method="post" action={{route('todos.update', $todos->id)}}>
    @csrf
    @method('PUT')
   <x-adminlte-input name='title' label='Title' placeholder={{$todo->title;}} />
