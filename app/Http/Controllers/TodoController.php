@@ -87,10 +87,12 @@ class TodoController extends Controller
             'progress' => 'required',
         ]);
         $todo = Todo::find($id)
-        $todo->fill($request->all_->save
         
-        return $this->index();
-        
+        $todo->update([
+            'title'->$request->title,
+            'progress'->$request->progress,
+            ]);
+         return view('todos.show', compact('todo'));
     }
 
     /**
