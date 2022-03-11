@@ -9,5 +9,5 @@
 @section('content')
 	<h2>{{ $todo->title;}}</h2>
 	<div><p>{{$todo->progress;}}% finished</p></div>
-    <x-adminlte-button href="{{ route('todos.edit' }}"  name="edit" label="Edit" />
+    <a href="{{ route('todos.edit' }}"  class = "btn btn-primary">Edit</a>
 @stop
