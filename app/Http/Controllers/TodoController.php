@@ -88,10 +88,9 @@ class TodoController extends Controller
         ]);
         $todo = Todo::find($id);
         
-        $todo->update([
-            'title'->$request->title,
-            'progress'->$request->progress,
-            ]);
+        $todo->title = $request->title;
+        $todo->progress = $request->progress;
+        $todo->update();
          return view('todos.show', compact('todo'));
     }
 
