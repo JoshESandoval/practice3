@@ -46,7 +46,7 @@ class TodoController extends Controller
             'progress' =>$request->progress,
         ]);
         
-        return this->index();
+        return $this->index();
     }
 
     /**
