@@ -7,5 +7,8 @@
 @stop
 
 @section('content')
-<p>wha happen</p>
+    <form method="post" action= "{{route('calendar.store')}}">
+        <x-adminlte-input name="title" label="Title"/>
+        <x-adminlte-date-range name="start_date"/>
+    </form>
 @stop	
