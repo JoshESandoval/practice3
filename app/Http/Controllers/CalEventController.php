@@ -45,8 +45,8 @@ class CalEventController extends Controller
         
         $cal_events = CalEvent::create([
             'title' => $request->title,
-            'start_at' =>$request->start_at,
-            'end_at'=>$request->end_at,
+            'start_at' => date_format($request->start_at, "Y/m/d H:i:s"),
+            'end_at'=> date_format($request->end_at, "Y/m/d H:i:s"),
         ]);
         
         return $this->index();
