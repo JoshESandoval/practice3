@@ -7,5 +7,6 @@
 @stop
 
 @section('content')
+    <p>im showing</p>
 	<h2>{{ $cal_event->title;}}</h2>
 @stop
