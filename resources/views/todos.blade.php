@@ -31,9 +31,6 @@
             <td>
                 <a class = "btn btn-default btn-sm" href="{{route('todos.show',['todo'=>$todo->id])}}">View</a>
             </td>
-            <td>
-                <a class = "btn btn-primary btn-sm" href="{{route('todos.edit',['todo'=>$todo->id])}}">View</a>
-            </td>
             </tr>
         @endforeach
       </tbody>
