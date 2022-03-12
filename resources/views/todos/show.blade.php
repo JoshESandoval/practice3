@@ -14,7 +14,7 @@
     
     <form action="{{route('todos.destroy', $todo->id) }} " method="post">
     @csrf
-    @method('delete')
+    @method("delete")
     <a  class = "btn btn-default btn-sm" href="{{ route('todos.destroy', ['todo'=>$todo->id] )}}" >Delete</a>
     </form>
 @stop
