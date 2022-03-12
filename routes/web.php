@@ -51,7 +51,7 @@ Route::get('/board', function () {
 });
 
 Route::resource('/todos', TodoController::class);
-Route::resource('/calendar', CalEventController::class);
+//Route::resource('/calendar', CalEventController::class);
 
 
 
