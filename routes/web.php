@@ -52,7 +52,7 @@ Route::get('/board', function () {
 
 Route::get('/events-feed', function(){
     
-}
+});
 
 Route::resource('/todos', TodoController::class);
 
