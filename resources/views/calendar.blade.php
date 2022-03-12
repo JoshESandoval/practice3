@@ -34,7 +34,7 @@
        initialView: 'dayGridMonth',
        events: [{
             title: 'Hello',
-            start: '2022-3-12,
+            start: '2022-3-12',
             end: '2022-3-13'
             }
        ]
