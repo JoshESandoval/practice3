@@ -12,7 +12,8 @@
         <h5>Start Time </br></h5>
         <input type="datetime-local" name="start_time"/>
         <h5>End Time </br></h5>
-        <input type="date" name="end_time"/>
-        <input type="time" name="end_time">
+        <input type="datetime-local" name="end_time"/>
+        <x-adminlte-button type="Submit" label="submit"/>
     </form>
 @stop	
+
