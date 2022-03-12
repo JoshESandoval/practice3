@@ -26,7 +26,7 @@ class CalEventController extends Controller
      */
     public function create()
     {
-        return view ('calendar.create'));
+        return view ('calendar.create');
     }
 
     /**
