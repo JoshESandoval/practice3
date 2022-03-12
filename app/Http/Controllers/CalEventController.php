@@ -61,7 +61,7 @@ class CalEventController extends Controller
     public function show($id)
     {
         $cal_event = CalEvent::find($id);
-        return view('calendar.show', compact('todo'));
+        return view('calendar.show', compact('cal_event'));
     }
 
     /**
