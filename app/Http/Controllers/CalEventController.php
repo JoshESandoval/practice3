@@ -38,7 +38,17 @@ class CalEventController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validated([
+            'title' => $request->title,
+            'start_at' =>$request->start_at,
+            'end_at'=>$request->end_at,
+        ]);
+        $cal_events = CalEvent::create([
+            'title' => $request->title,
+            'start_at' =>$request->start_at,
+            'end_at'=>$request->end_at,
+        ]);
+        return $this->index();
     }
 
     /**
