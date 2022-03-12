@@ -53,7 +53,7 @@ Route::get('/board', function () {
 
 Route::get('/event-feed', function(){
     
-    $events =  CalEvent::all()->get();
+    $events = view('/calendar/index');
 });
 
 Route::resource('/todos', TodoController::class);
