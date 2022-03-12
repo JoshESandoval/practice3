@@ -32,7 +32,7 @@
   $( document ).ready(function() {
       var calendar = new FullCalendar.Calendar($('#calendar')[0], {
        initialView: 'dayGridMonth',
-       events: '/events-feed'
+       events: CalEvent::select('title', start_at AS start', 'end_at AS end')->get();
        });
     calendar.render();
   })
