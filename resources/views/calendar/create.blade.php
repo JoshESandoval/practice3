@@ -9,6 +9,6 @@
 @section('content')
     <form method="post" action= "{{route('calendar.store')}}">
         <x-adminlte-input name="title" label="Title"/>
-        <x-adminlte-date-range name="start_date"/>
+        <input type="datetime-local" name="start_time"/>
     </form>
 @stop	
