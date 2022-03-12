@@ -7,8 +7,9 @@
 @stop
 
 @section('content')
-<a href= "{{route('calendar.create')}}" class="button button-primary">
+
 <div class="row">
+<a href= "{{route('calendar.create')}}" class="button button-primary">Create Event</a>
   <div class="col-md-12">
     <div class="card card-primary">
       <div class="card-body p-0">
