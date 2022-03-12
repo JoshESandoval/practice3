@@ -10,4 +10,5 @@
 	<h2>{{ $todo->title;}}</h2>
 	<div><p>{{$todo->progress;}}% finished</p></div>
     <a  class = "btn btn-default btn-sm" href="{{ route('todos.edit', ['todo'=>$todo->id] )}}" >Edit</a>
+    <a  class = "btn btn-default btn-sm" href="{{ route('todos.destroy', ['todo'=>$todo->id] )}}" >Delete</a>
 @stop
