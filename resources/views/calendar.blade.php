@@ -32,7 +32,12 @@
   $( document ).ready(function() {
       var calendar = new FullCalendar.Calendar($('#calendar')[0], {
        initialView: 'dayGridMonth',
-       events: CalEvent::select('title', start_at AS start', 'end_at AS end')->get();
+       events: [{
+            title: 'Hello',
+            start: '2022-3-12,
+            end: '2022-3-13'
+            }
+       ]
        });
     calendar.render();
   })
