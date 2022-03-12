@@ -37,7 +37,7 @@ class CalEventController extends Controller
      */
     public function store(Request $request)
     {
-        $validated = $request->validated([
+        $validated = $request->validate([
             'title' => 'required',
             'start_at' =>'required',
             'end_at'=>'required',
