@@ -104,6 +104,6 @@ class TodoController extends Controller
     {
         $todo = Todo::find($id);
         $todo->delete();
-        return view('todos', compact('todo');
+        return view('todos', compact('todo'));
     }
 }
