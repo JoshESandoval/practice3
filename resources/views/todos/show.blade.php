@@ -12,7 +12,7 @@
     
     <a  class = "btn btn-default btn-sm" href="{{ route('todos.edit', ['todo'=>$todo->id] )}}" >Edit</a>
     
-    <form action="{{route('todos.destroy', ['todo'=>$todo->id] }} " method="post">
+    <form action="{{route('todos.destroy', ['todo'=>$todo->id]) }} " method="post">
     @csrf
     @method("delete")
     <input type="submit" label="Delete"></input>
