@@ -7,10 +7,5 @@
 @stop
 
 @section('content')
-<form method= "post" action = "{{ route('calendar') }}" >
-	@csrf
-	<x-adminlte-input name="title" label="Title"/>
-	<x-adminlte-input name="progress" type="number" min=0 max=100  />
-	<x-adminlte-button type="Submit" label="Submit" />
-</form>
+<p>wha happen</p>
 @stop	
