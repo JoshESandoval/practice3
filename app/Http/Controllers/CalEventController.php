@@ -26,8 +26,7 @@ class CalEventController extends Controller
      */
     public function create()
     {
-        $cal_events = CalEvent::all();
-        return view ('calendar.create', compact('cal_events'));
+        return view ('calendar.create'));
     }
 
     /**
