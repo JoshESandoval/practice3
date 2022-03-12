@@ -7,7 +7,9 @@
 @stop
 
 @section('content')
+
 <div class="row">
+
   <div class="col-md-12">
     <div class="card card-primary">
       <div class="card-body p-0">
@@ -17,6 +19,7 @@
     </div>
   </div>
 </div>
+<a href= "{{route('calendar.create')}}" class="button button-primary">Create Event</a>
 @stop
 
 @section('css')

@@ -15,9 +15,9 @@ return new class extends Migration
     {
         Schema::create('cal_events', function (Blueprint $table) {
             $table->id();
-            $title->string('title');
-            $start->dateTime('start_at', setprecision=0 );                        
-            $end->dateTime('end_at', setprecision=0 );
+            $table->string('title');
+            $table->dateTime('start_at', $precision=0 );                        
+            $table->dateTime('end_at', $precision = 0 );
             $table->timestamps();
         });
     }

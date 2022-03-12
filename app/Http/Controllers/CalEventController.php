@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\CalEvent;
 
 class CalEventController extends Controller
 {
@@ -13,7 +14,9 @@ class CalEventController extends Controller
      */
     public function index()
     {
-        //
+        $cal_events = CalEvent::all();
+        return view ('calendar', compact('cal_events'));
+        
     }
 
     /**
@@ -23,7 +26,8 @@ class CalEventController extends Controller
      */
     public function create()
     {
-        //
+        $cal_events = CalEvent::all();
+        return view ('calendar.create', compact('cal_events'));
     }
 
     /**
