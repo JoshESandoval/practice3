@@ -4,6 +4,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TodoController;
 use App\Http\Controllers\CalEventController;
+use App\Models\CalEvent;
 
 header("Access-Control-Allow-Origin: *");
 
