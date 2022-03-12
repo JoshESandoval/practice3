@@ -12,6 +12,7 @@
         <h5>Start Time </br></h5>
         <input type="datetime-local" name="start_time"/>
         <h5>End Time </br></h5>
-        <input type="datetime-local" name="end_time"/>
+        <input type="date" name="end_time"/>
+        <input type="time" name="end_time">
     </form>
 @stop	
