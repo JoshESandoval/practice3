@@ -3,6 +3,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TodoController;
+use App\Http\Controllers\CalEventController;
 
 header("Access-Control-Allow-Origin: *");
 
@@ -51,6 +52,7 @@ Route::get('/board', function () {
 
 Route::resource('/todos', TodoController::class);
 
+Route::resource('/cal_events', CalEventController::class);
 
 Route::fallback( function () {
     return view('errorPage');   
