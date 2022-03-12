@@ -15,6 +15,6 @@
     <form action="{{route('todos.destroy', $todo->id) }} " method="post">
     @csrf
     @method("delete")
-    <input type="submit" label="Delete"/>
+    <input type="submit" label="Delete">Delete</input>
     </form>
 @stop
