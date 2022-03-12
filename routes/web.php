@@ -50,7 +50,7 @@ Route::get('/board', function () {
     return view('board');
 });
 
-Route::get('/events-feed', function(){
+Route::get('/event-feed', function(){
     $events = CalEvent::select('title', 'start_at AS start', 'end_at AS end')->get();
 });
 
