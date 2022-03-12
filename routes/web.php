@@ -50,6 +50,10 @@ Route::get('/board', function () {
     return view('board');
 });
 
+Route::get('/events-feed', function(){
+    
+}
+
 Route::resource('/todos', TodoController::class);
 
 Route::resource('/calendar', CalEventController::class);
