@@ -32,12 +32,7 @@
   $( document ).ready(function() {
       var calendar = new FullCalendar.Calendar($('#calendar')[0], {
        initialView: 'dayGridMonth',
-       events: [{
-            title: 'Hello',
-            start: '2022-3-12',
-            end: '2022-3-13'
-            }
-       ]
+       events: '/event-feed'
        });
     calendar.render();
   })
