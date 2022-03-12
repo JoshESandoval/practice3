@@ -14,7 +14,9 @@ class CalEventController extends Controller
      */
     public function index()
     {
-        //
+        $cal_events = CalEvent::all();
+        return view ('calendar', compact('cal_events'));
+        
     }
 
     /**
