@@ -52,7 +52,7 @@ Route::get('/board', function () {
 
 Route::resource('/todos', TodoController::class);
 
-Route::resource('/calendar', CalEventController::class);
+
 
 Route::fallback( function () {
     return view('errorPage');   
