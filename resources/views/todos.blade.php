@@ -19,6 +19,7 @@
       </thead>
       <tbody>
         @foreach($todos AS $todo)
+        <tr>
             <td>{{$todo->id }}</td>
             <td>{{$todo->title}}</td>
             <td>
@@ -33,7 +34,8 @@
             <td>
                 <a class = "btn btn-primary btn-sm" href="{{route('todos.edit',['todo'=>$todo->id])}}">View</a>
             </td>
-            @endforeach
+            </tr>
+        @endforeach
       </tbody>
     </table>
   </div>
