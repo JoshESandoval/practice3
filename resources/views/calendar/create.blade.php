@@ -7,6 +7,7 @@
 @stop
 
 @section('content')
+    @csrf
     <form method="post" action= "{{route('calendar.store')}}">
         <x-adminlte-input name="title" label="Title"/>
         <h5>Start Time </br></h5>
